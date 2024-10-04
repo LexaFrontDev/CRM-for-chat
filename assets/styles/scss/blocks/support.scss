@@ -1,0 +1,33 @@
+.exit{
+  color: var(--color-white);
+  top: 10px;
+  left: 10px;
+  position: absolute;
+  border: 1px solid var(--color-black-bean);
+  padding: 7px 10px;
+  text-decoration: none;
+  background-color: var(--color-black-bean);
+  border-radius: 15px;
+  &:hover{
+    background: rgb(230,0,0);
+    background: linear-gradient(40deg, rgba(230,0,0,1) 0%, rgba(204,33,33,1) 40%, rgba(149,79,79,1) 100%);
+  }
+}
+
+.doneTask{
+  color: var(--color-black);
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: transparent;
+  border: 1px solid var(--color-superiority-blue);
+  background: var(--color-green);
+  cursor: pointer;
+  padding: 9px 10px;
+  border-radius: 15px;
+  &:hover{
+    color: var(--color-white);
+    background: rgb(105,158,110);
+    background: linear-gradient(40deg, rgba(105,158,110,1) 16%, rgba(39,122,46,1) 40%, rgba(27,97,33,1) 100%);
+  }
+}

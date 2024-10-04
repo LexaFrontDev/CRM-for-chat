@@ -1,0 +1,12 @@
+{
+  "name": "crm-chat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "scss": "sass --watch assets/styles/scss/index.scss:assets/styles/css/index.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

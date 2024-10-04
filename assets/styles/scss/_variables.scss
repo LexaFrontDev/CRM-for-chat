@@ -1,0 +1,23 @@
+:root{
+  --color-black:#000000;
+  --color-white: #ffffff;
+  --color-wenge: #635663;
+  --color-bg: #4C443C;
+  --color-superiority-blue: #7794AE;
+  --color-black-bean: #390000;
+  --color-red:#FF0000;
+  --color-green: #0AFF1A;
+
+
+}
+
+
+@mixin button-gradient{
+  background: rgb(143,0,255);
+  background: linear-gradient(90deg, rgba(143,0,255,1) 0%, rgba(143,0,255,1) 54%, rgba(143,0,255,1) 100%);
+
+  &:hover{
+    background: rgb(204,173,228);
+    background: linear-gradient(90deg, rgba(204,173,228,1) 0%, rgba(143,0,255,1) 74%, rgba(178,148,201,1) 100%);
+  }
+}

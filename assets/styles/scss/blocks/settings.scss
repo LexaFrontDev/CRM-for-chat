@@ -1,0 +1,181 @@
+*{
+  color: var(--color-white);
+  font-family: sans-serif;
+}
+
+
+
+.container{
+  position: relative;
+  width: auto;
+  height: auto;
+  margin: 48px 90px;
+  overflow: hidden;
+
+  h1{
+    margin: 10px 0;
+  }
+
+  p{
+    margin: 23px 0;
+  }
+
+  .helpUser{
+    text-decoration: none;
+    border: 1px solid var(--color-superiority-blue);
+    border-radius: 15px;
+    padding: 8px 16px;
+    @include button-gradient;
+  }
+
+  .line {
+    width: 100%;
+    height: 1px;
+    background-color: var(--color-white);
+    margin: 30px 0;
+  }
+
+
+  .countProblemHead{
+    text-align: center;
+  }
+}
+
+
+.colorful-form {
+  max-width: 400px;
+  margin: 30vh auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #fff;
+  color: #333;
+  border-radius: 5px;
+}
+
+textarea.form-input {
+  height: 100px;
+}
+
+.form-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #ff6f69;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #ff5f59;
+}
+
+
+.problemUser{
+  margin: 10px 0;
+  color: var(--color-black);
+}
+
+
+.container-settings{
+  width: auto;
+  height: auto;
+  margin: 20px 70px;
+  position: relative;
+
+
+  .wrapUpdate {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transform: translateY(-30vh);
+  }
+
+
+  .formUpd{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .LabUpd{
+    margin-left: 41px;
+    font-size: 15px;
+  }
+
+  .updButton {
+    background: transparent;
+    border: none;
+    width: 100px;
+    height: 30px;
+    background-color: var(--color-green);
+    margin-left: 53px;
+    border: 1px solid var(--color-green);
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    color: var(--color-black);
+
+  }
+
+
+
+  .updInp{
+    color: var(--color-black);
+    height: 40px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 15px 20px;
+    border: none;
+  }
+
+  .exitInAccount{
+    color: var(--color-black-bean);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 999;
+
+    &:hover{
+      color: var(--color-red);
+    }
+  }
+
+ }
+
+@media (hover: hover) {
+  .updButton:hover {
+    color: var(--color-white);
+    background: rgb(105,158,110);
+    background: linear-gradient(40deg, rgba(105,158,110,1) 18%, rgba(47,153,56,1) 40%, rgba(27,97,33,1) 100%);
+  }
+}
+@media (hover: none) {
+  .updButton:active {
+    color: var(--color-white);
+    background: rgb(105,158,110);
+    background: linear-gradient(40deg, rgba(105,158,110,1) 18%, rgba(47,153,56,1) 40%, rgba(27,97,33,1) 100%);
+  }
+}
